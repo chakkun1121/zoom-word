@@ -1,0 +1,8 @@
+body {
+	height: calc(100vh - 10px);
+	width: min(100vw, 500px);
+	margin: 0 auto;
+	padding: 5px;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
