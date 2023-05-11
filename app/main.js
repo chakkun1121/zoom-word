@@ -51,15 +51,22 @@ export default function Main() {
       </section>
       <section id="output">
         <p
+          className="output"
           style={{
             fontSize: outputFontSize,
-            fontFamily: "UDDigiKyokasho R",
             letterSpacing: `${outputSpaceing}px`,
           }}
         >
           {showWord}
         </p>
       </section>
+      <style jsx>{`
+        .output {
+          font-family: "UDDigiKyokasho R";
+          width: min(100vw, 500px);
+          overflow-wrap: break-word;
+        }
+      `}</style>
     </main>
   );
 }
