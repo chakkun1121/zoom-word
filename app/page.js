@@ -1,3 +1,4 @@
+import GoogleAnalytics from "./GoogleAnalytics";
 import Footer from "./footer";
 import Header from "./header";
 import Main from "./main";
@@ -9,6 +10,7 @@ export const metadata = {
 export default function App() {
   return (
     <>
+      <GoogleAnalytics />
       <Header />
       <Main />
       <Footer />
