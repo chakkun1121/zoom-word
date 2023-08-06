@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.0",
+    "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.11.16",
+    "@mui/icons-material": "^5.13.7",
     "@mui/material": "^5.13.0",
     "@types/gtag.js": "^0.0.12",
     "next": "^13.4.9",
-    "sass": "^1.62.1"
+    "sass": "^1.63.6"
   }
 }
