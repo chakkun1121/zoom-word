@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import GoogleAnalytics from "./GoogleAnalytics";
 import Footer from "./footer";
 import Header from "./header";
@@ -28,8 +29,7 @@ export const metadata = {
     title: "文字を拡大 | chakkun1121",
     description:
       "文字を拡大するだけのページです。漢字や怪しいURLなどの文字を拡大したいときに使ってください。",
-    cardType: "summary_large_image",
-  }
+  },
 };
 
 export default function App() {
