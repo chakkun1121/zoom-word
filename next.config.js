@@ -1,3 +1,11 @@
 module.exports = {
-  output: "export",
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        destination: "https://chakkun1121.github.io/zoom-word/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
